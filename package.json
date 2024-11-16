@@ -1,0 +1,23 @@
+{
+    "name": "reflection",
+    "version": "1.0.0",
+    "description": "Extract reflection data from TS code",
+    "bin": {
+        "reflect.parse": "./parse.js",
+        "reflect.paramtypes": "./paramtypes.js",
+        "reflect.controllers": "./controllers.js",
+        "reflect.handlers": "./handlers.js"
+    },
+    "scripts": {
+        "build": "tsc",
+        "build:watch": "tsc -w",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "@types/node": "^22.7.4",
+        "jsonc-parser": "^3.3.1",
+        "typescript": "^5.6.2"
+    }
+}

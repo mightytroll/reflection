@@ -1,0 +1,18 @@
+# OS metadata files
+.DS_Store
+
+# IDE configuration
+.idea
+
+# Dependency directories
+/node_modules/
+
+# Environment variables
+/config/local*.json
+
+# Application cache and compiled files
+/cache
+/dist
+
+# Test coverage reports
+/coverage
